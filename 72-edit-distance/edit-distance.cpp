@@ -12,7 +12,6 @@ public:
         for(int j = 0; j <= m; j++)
             dp[0][j] = j;
         
-        // Fill DP table
         for(int i = 1; i <= n; i++) {
             for(int j = 1; j <= m; j++) {
                 if(word1[i - 1] == word2[j - 1]) {
